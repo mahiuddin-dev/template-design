@@ -1,0 +1,139 @@
+/* common css  */
+a{
+    text-decoration: none;
+}
+section{
+    padding: 70px 0px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title:after{
+    background: #e74c3c;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 20px auto;
+}
+/* header css start */
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+#menu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    display: block;
+    color: white;
+    padding: 15px 10px;
+}
+#menu li a:hover {
+    background-color: #c0392b;
+}
+/* header css end */
+
+/* banner css start */
+#banner{
+    background: url('../images/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background-color: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title p {
+    color: white;
+    background-color: rgb(231, 76, 60, 0.7);
+    padding: 10px;
+    margin: 0px;
+}
+/* banner css end */
+
+/* servic css start */
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+/* servic css end */
+
+/* testimonial css start  */
+.testimonial{
+    background: url("../images/testimonial3.jpg") no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0px;
+    position: relative;
+    color: white;
+    z-index: -2;
+}
+.testimonial:before{
+    background: rgb(52, 73, 94, 0.7);
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.testimonial-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* testimonial css end  */
+
+/* news css strat */
+
+#news .news-title a{
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.news-box{
+    padding: 10px;
+}
+.news-box .news-title{
+    font-size: 1.35rem;
+}
+.news-box .newsDate{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.news-box img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* news css end */
